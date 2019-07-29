@@ -100,6 +100,7 @@ void scanMatrix() {
 
     for (uint8_t row = 0 ; row < SCAN_ROW_SIZE ; row++) {
       uint8_t note = (scan_col * SCAN_ROW_SIZE) + row;
+      ets_delay_us(9);
       uint8_t x = digitalRead(scanRow[row]);     /* READ PORT */
       /* bounce canceler */
       if (x != buttonStatus[note]) {
