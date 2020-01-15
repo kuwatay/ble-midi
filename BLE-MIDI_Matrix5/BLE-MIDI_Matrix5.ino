@@ -26,7 +26,7 @@ const int ledPin = 13; // led pin
 #define SCAN_ROW_SIZE 5
 #define SCAN_COL_SIZE 5
 #define MAX_KEYS (SCAN_ROW_SIZE * SCAN_COL_SIZE)
-#define SCAN_COUNT_TH 150  /* read key every SCAN_COUNT_TH loop */
+#define SCAN_COUNT_TH 500  /* read key every SCAN_COUNT_TH loop */
 
 /* Pin Assignment for LED/SW matrix */
 int scanCol [SCAN_COL_SIZE] = {18, 19, 21, 22, 23};
