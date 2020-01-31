@@ -29,8 +29,8 @@ const int ledPin = 13; // led pin
 #define SCAN_COUNT_TH 500  /* read key every SCAN_COUNT_TH loop */
 
 /* Pin Assignment for LED/SW matrix */
-int scanCol [SCAN_COL_SIZE] = {18, 19, 21, 22};
-int scanRow [SCAN_ROW_SIZE] = {15,  4, 16, 17};
+int scanCol [SCAN_COL_SIZE] = {18, 19, 20, 21};
+int scanRow [SCAN_ROW_SIZE] = {14,  15, 16, 17};
 
 static uint8_t scan_col = 0;
 static uint16_t scan_wait_count = 1;
