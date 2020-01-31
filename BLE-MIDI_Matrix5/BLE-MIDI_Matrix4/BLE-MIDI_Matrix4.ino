@@ -23,8 +23,8 @@ const int ledPin = 13; // led pin
 #define NOTE_OFFSET 36 // start from C2
 
 // Matrix switch control
-#define SCAN_ROW_SIZE 5
-#define SCAN_COL_SIZE 5
+#define SCAN_ROW_SIZE 4
+#define SCAN_COL_SIZE 4
 #define MAX_KEYS (SCAN_ROW_SIZE * SCAN_COL_SIZE)
 #define SCAN_COUNT_TH 500  /* read key every SCAN_COUNT_TH loop */
 
