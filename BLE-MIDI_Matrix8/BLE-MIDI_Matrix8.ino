@@ -1,5 +1,5 @@
 /*
-    BLE-MIDI Matrix switch
+    BLE-MIDI Matrix switch, 8x8 version
     2019/7/20 by morecat_lab
 */
 
@@ -281,7 +281,7 @@ void setup() {
   pinMode(ledPin, OUTPUT);
 
   // Create the BLE Device
-  BLEDevice::init("MIDI-MATRIX-SWITCH");
+  BLEDevice::init("MIDI-MATRIX-8X8");
 
   // Create the BLE Server
   pServer = BLEDevice::createServer();
